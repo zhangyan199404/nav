@@ -29,6 +29,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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
           branch: gh-pages
           folder: dist/browser
